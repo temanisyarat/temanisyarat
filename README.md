@@ -4,21 +4,6 @@
 
 > **Teman Isyarat** (Indonesian for "Sign Friend") — an AI-powered Indonesian Sign Language (BISINDO) recognition system. Built by a student team at **Universitas Sebelas Maret (UNS)** under the Hibah Jarprak program, in partnership with **GERKATIN Solo**.
 
-## Overview
-
-This monorepo contains the full stack of the Teman Isyarat project: from raw video recording through landmark extraction, deep learning training, to on-device real-time inference on Android.
-
-```
-Video (raw MP4)  ──►  lm/      ──►  .npz landmarks
-                                (MediaPipe extraction)
-
-.npz landmarks   ──►  model/   ──►  .tflite model
-                                (GRU training & export)
-
-.tflite model    ──►  android/ ──►  Live predictions
-                                (On-device inference)
-```
-
 ## Repositories
 
 | Repository | Purpose |

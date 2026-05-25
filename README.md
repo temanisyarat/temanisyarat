@@ -21,14 +21,14 @@ Video (raw MP4)  ──►  lm/      ──►  .npz landmarks
 
 ## Repositories
 
-| Directory | Purpose |
+| Repository | Purpose |
 |-----------|---------|
-| [`lm/`](lm/) | MediaPipe holistic landmark extraction pipeline — converts raw BISINDO video recordings into `.npz` landmark arrays (pose + hands) with ffmpeg-based data augmentation |
-| [`model/`](model/) | GRU-based neural network with temporal attention — trains on extracted landmarks, evaluates with signer-independent cross-validation, exports TFLite models for mobile deployment |
-| [`android/`](android/) | Flutter + Kotlin Android app — real-time BISINDO translation via CameraX and MediaPipe, running the TFLite model fully offline with temporal smoothing and skeleton overlay |
-| [`manager/`](manager/) | Obsidian vault for project management — architecture decision records (ADRs), technical specifications, sprint tracking, and team documentation |
-| [`dataset/`](dataset/) | Raw BISINDO video dataset collected with GERKATIN Solo |
-| [`web/`](web/) | Landing page and web platform |
+| [`landmark extraction`](https://github.com/temanisyarat/landmark-extraction) | MediaPipe holistic landmark extraction pipeline — converts raw BISINDO video recordings into `.npz` landmark arrays (pose + hands) with ffmpeg-based data augmentation |
+| [`model pipeline`](https://github.com/temanisyarat/model-pipeline) | GRU-based neural network with temporal attention — trains on extracted landmarks, evaluates with signer-independent cross-validation, exports TFLite models for mobile deployment |
+| [`android`](https://github.com/temanisyarat/android) | Flutter + Kotlin Android app — real-time BISINDO translation via CameraX and MediaPipe, running the TFLite model fully offline with temporal smoothing and skeleton overlay |
+| [`project manager`](https://github.com/temanisyarat/manager) | Obsidian vault for project management — architecture decision records (ADRs), technical specifications, sprint tracking, and team documentation |
+| [`dataset`](https://github.com/temanisyarat/dataset) | Raw BISINDO video dataset collected with GERKATIN Solo |
+| [`frontend`](https://github.com/temanisyarat/frontend) and [`backend`](https://github.com/temanisyarat/backend)| Landing page and web platform |
 
 ## Vocabulary
 
